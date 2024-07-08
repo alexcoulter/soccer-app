@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/soccer-app/static/css/main.86bad694.css",
+    "main.js": "/soccer-app/static/js/main.a34d0ece.js",
+    "static/js/635.b110f81a.chunk.js": "/soccer-app/static/js/635.b110f81a.chunk.js",
+    "static/js/453.29bdbfce.chunk.js": "/soccer-app/static/js/453.29bdbfce.chunk.js",
+    "static/js/515.95b99a3d.chunk.js": "/soccer-app/static/js/515.95b99a3d.chunk.js",
+    "static/media/ballInStadium.jpg": "/soccer-app/static/media/ballInStadium.61cdd0abb938ebb55135.jpg",
+    "static/media/football.webp": "/soccer-app/static/media/football.b39dbf6dc35cdc713aa5.webp",
+    "index.html": "/soccer-app/index.html",
+    "main.86bad694.css.map": "/soccer-app/static/css/main.86bad694.css.map",
+    "main.a34d0ece.js.map": "/soccer-app/static/js/main.a34d0ece.js.map",
+    "635.b110f81a.chunk.js.map": "/soccer-app/static/js/635.b110f81a.chunk.js.map",
+    "453.29bdbfce.chunk.js.map": "/soccer-app/static/js/453.29bdbfce.chunk.js.map",
+    "515.95b99a3d.chunk.js.map": "/soccer-app/static/js/515.95b99a3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86bad694.css",
+    "static/js/main.a34d0ece.js"
+  ]
+}
