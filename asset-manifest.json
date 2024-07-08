@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4268e079.css",
-    "main.js": "/static/js/main.008d8520.js",
+    "main.js": "/static/js/main.16d24fee.js",
     "static/js/635.1a91cfcf.chunk.js": "/static/js/635.1a91cfcf.chunk.js",
     "static/js/453.29bdbfce.chunk.js": "/static/js/453.29bdbfce.chunk.js",
     "static/js/16.1f08f354.chunk.js": "/static/js/16.1f08f354.chunk.js",
@@ -9,13 +9,13 @@
     "static/media/football.webp": "/static/media/football.b39dbf6dc35cdc713aa5.webp",
     "index.html": "/index.html",
     "main.4268e079.css.map": "/static/css/main.4268e079.css.map",
-    "main.008d8520.js.map": "/static/js/main.008d8520.js.map",
+    "main.16d24fee.js.map": "/static/js/main.16d24fee.js.map",
     "635.1a91cfcf.chunk.js.map": "/static/js/635.1a91cfcf.chunk.js.map",
     "453.29bdbfce.chunk.js.map": "/static/js/453.29bdbfce.chunk.js.map",
     "16.1f08f354.chunk.js.map": "/static/js/16.1f08f354.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4268e079.css",
-    "static/js/main.008d8520.js"
+    "static/js/main.16d24fee.js"
   ]
 }
