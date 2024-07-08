@@ -1,0 +1,123 @@
+html, body, #root { 
+  height: 100%;
+  background-color: rgb(244, 244, 243); 
+}
+.App {
+  text-align: center;
+}
+p {
+  margin-bottom: 0 !important;
+}
+
+#root { 
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-blue {
+  color: #256186;
+  text-shadow: 3px 1px 2px rgb(161, 161, 199);
+}
+
+.home-image {
+  box-shadow: 5px 5px 5px rgb(161, 161, 199);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home-select {
+  min-width: 100px;
+  max-width: 50%;
+
+}
+
+.table {
+  border-top: none;
+}
+tr, thead > tr > th {
+  border-top: none;
+}
+
+
+
+table th:first-child{
+  border-top-left-radius: 10px;
+  /* border-radius:20px 0 0 0; */
+}
+
+table th:last-child{
+  border-radius:0 10px 0 0;
+}
+
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    color: white;
+    background-color: #256186;
+    border-style:hidden;
+
+}
+
+.league-header {
+  color: white;
+  /* background-color: #256186; */
+  border-style:hidden;
+  border-radius:5px; 
+  padding:5px 10px;
+  background-image: linear-gradient(to bottom right,rgb(1, 9, 30),rgb(36, 132, 173));
+}
+
+.table th.up {
+  background-image: url("./images/up_arrow.png");
+  text-decoration: underline;
+}
+.table th.down {
+  background-image: url("./images/down_arrow.png");
+  text-decoration: underline;
+}
+.table th.default {
+  background-image: url("./images/default.png");
+}
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.body-container {
+  margin-bottom: 30px;
+}
+
+.footer {
+   margin-top: auto;
+   background-image: linear-gradient(to bottom right,rgb(36, 132, 173), rgb(1, 9, 30));
+}
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-heading {
+  color: rgb(199, 230, 90);
+  text-shadow: 3px 2px 3px rgb(13, 13, 62);
+}
+
+.footer-heading2 {
+  text-shadow: 1px 1px 1px rgb(35, 59, 19);
+
+}
