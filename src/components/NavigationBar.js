@@ -12,10 +12,10 @@ export function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
         <Image src={ball} alt="soccer ball" width="55" height="30" />
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="Players">Players</Nav.Link>
-            <Nav.Link as={Link} to="Standings">Standings</Nav.Link>
-            <Nav.Link as={Link} to="Schedule">Schedule</Nav.Link>
+            <Nav.Link as={Link} to="/soccer-app/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/soccer-app/players">Players</Nav.Link>
+            <Nav.Link as={Link} to="/soccer-app/standings">Standings</Nav.Link>
+            <Nav.Link as={Link} to="/soccer-app/schedule">Schedule</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

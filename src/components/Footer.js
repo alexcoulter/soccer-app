@@ -15,16 +15,16 @@ export function Footer() {
           <Col>
             <Nav className="flex-column fs-5">
               <h4 className="footer-heading2">Useful Links</h4>
-              <Link to="/" className="text-white footer-link">Home</Link>
-              <Link to="Players" className="text-white footer-link">Players</Link>
-              <Link to="Standings" className="text-white footer-link">Standings</Link>
-              <Link to="Schedule" className="text-white footer-link">Schedule</Link>
+              <Link to="/soccer-app/" className="text-white footer-link">Home</Link>
+              <Link to="/soccer-app/players" className="text-white footer-link">Players</Link>
+              <Link to="/soccer-app/standings" className="text-white footer-link">Standings</Link>
+              <Link to="/soccer-app/schedule" className="text-white footer-link">Schedule</Link>
             </Nav>
           </Col>
           <Col>
             <h4 className="footer-heading2">Contact us!</h4>
-            <p>Email: Rob.DurhamDude@gmail.com</p>
-            <p>Phone: (919) 222-5678</p>
+            <p>Email: Alex.DurhamSoccer@gmail.com</p>
+            <p>Phone: (919) 555-5555</p>
           </Col>
           </Row>
       </Container>

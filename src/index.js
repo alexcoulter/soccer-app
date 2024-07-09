@@ -6,7 +6,8 @@ import { AppProvider } from './AppProvider';
 import reportWebVitals from './reportWebVitals';
 
 async function enableMocking() {
-  console.log("The environment is : " + process.env.NODE_ENV);
+  if(process.env.NODE_ENV === 'development') var local = true;
+  console.log("The environment is now : " + process.env.NODE_ENV);
   // if (process.env.NODE_ENV !== 'development') {
   //   return
   // }
@@ -15,7 +16,14 @@ async function enableMocking() {
  
   // `worker.start()` returns a Promise that resolves
   // once the Service Worker is up and ready to intercept requests.
-  return worker.start()
+  if(local) return worker.start()
+  else {
+    return worker.start({
+      serviceWorker: {
+        url: '/soccer-app/mockServiceWorker.js',
+      },
+    })
+  }
 }
 
 enableMocking().then(()=> {
