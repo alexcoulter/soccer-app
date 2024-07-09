@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/soccer-app/static/css/main.4268e079.css",
-    "main.js": "/soccer-app/static/js/main.561e4852.js",
-    "static/js/635.1a91cfcf.chunk.js": "/soccer-app/static/js/635.1a91cfcf.chunk.js",
-    "static/js/453.29bdbfce.chunk.js": "/soccer-app/static/js/453.29bdbfce.chunk.js",
-    "static/js/16.87c77fdb.chunk.js": "/soccer-app/static/js/16.87c77fdb.chunk.js",
-    "static/media/ballInStadium.jpg": "/soccer-app/static/media/ballInStadium.61cdd0abb938ebb55135.jpg",
-    "static/media/football.webp": "/soccer-app/static/media/football.b39dbf6dc35cdc713aa5.webp",
-    "index.html": "/soccer-app/index.html",
-    "main.4268e079.css.map": "/soccer-app/static/css/main.4268e079.css.map",
-    "main.561e4852.js.map": "/soccer-app/static/js/main.561e4852.js.map",
-    "635.1a91cfcf.chunk.js.map": "/soccer-app/static/js/635.1a91cfcf.chunk.js.map",
-    "453.29bdbfce.chunk.js.map": "/soccer-app/static/js/453.29bdbfce.chunk.js.map",
-    "16.87c77fdb.chunk.js.map": "/soccer-app/static/js/16.87c77fdb.chunk.js.map"
+    "main.css": "./static/css/main.4268e079.css",
+    "main.js": "./static/js/main.e7f71068.js",
+    "static/js/635.1a91cfcf.chunk.js": "./static/js/635.1a91cfcf.chunk.js",
+    "static/js/453.29bdbfce.chunk.js": "./static/js/453.29bdbfce.chunk.js",
+    "static/js/16.ff679121.chunk.js": "./static/js/16.ff679121.chunk.js",
+    "static/media/ballInStadium.jpg": "./static/media/ballInStadium.61cdd0abb938ebb55135.jpg",
+    "static/media/football.webp": "./static/media/football.b39dbf6dc35cdc713aa5.webp",
+    "index.html": "./index.html",
+    "main.4268e079.css.map": "./static/css/main.4268e079.css.map",
+    "main.e7f71068.js.map": "./static/js/main.e7f71068.js.map",
+    "635.1a91cfcf.chunk.js.map": "./static/js/635.1a91cfcf.chunk.js.map",
+    "453.29bdbfce.chunk.js.map": "./static/js/453.29bdbfce.chunk.js.map",
+    "16.ff679121.chunk.js.map": "./static/js/16.ff679121.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4268e079.css",
-    "static/js/main.561e4852.js"
+    "static/js/main.e7f71068.js"
   ]
 }
